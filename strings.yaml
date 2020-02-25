@@ -4,7 +4,7 @@
 # base config in partials/branding, partials/head
 branding:
   name: CMS Demo
-  prettyName: Team Library
+  prettyName: CMS Demo Rev 2
   org: jSonar
   icon: /assets/Jsonar_logo.jpg
 
