@@ -1,6 +1,25 @@
-# base config in partials/branding, partials/head
 branding:
-  name: CMS Demo
-  prettyName: CMS Demo Rev 2
+  name: CMS Demo 
   org: jSonar
-  icon: https://raw.githubusercontent.com/lukejsonar/custom-test/master/assets/Jsonar_logo.jpg
+  orgDomain: jSonar.com
+  prettyName: jSonar internal CMS Demo
+  favicon: /assets/images/library.ico
+
+landing:
+  tagline: A simple documentation site, built from content in Google Docs.
+  viewAll: View All Docs
+  quickLink: <a href="/get-started">Get started</a>.
+
+footer:
+  helpText: CMS Demo Rev 2
+
+search:
+  placeholder: What do you want to know about Library?
+  results:
+    none:
+      suggestion: To request a new page, submit <a href="https://github.com/nytimes/library">a PR on Github</a>.
+
+# errors
+error:
+  403:
+    message: "<p>For this documentation site, we've disabled the final step of the Move File workflow. Normally, this request would succeed and you'd be taken to the new url for your page.</p>"
