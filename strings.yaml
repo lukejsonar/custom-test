@@ -3,7 +3,7 @@ branding:
   org: jSonar
   orgDomain: jSonar.com
   prettyName: jSonar internal CMS Demo
-  icon: http://sonargdocs.jsonar.com/latest/en/image/Jsonar_Simplifying_Security_Logo.svg
+  icon: /assets/icon-logo.svgJsonar_Simplifying_Security_Logo.svg
 
 landing:
   tagline: A simple documentation site, built from content in Google Docs.
